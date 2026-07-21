@@ -1,0 +1,83 @@
+# ===========================================
+#  MERN Stack .gitignore
+#  (Node.js + Express + React + MongoDB)
+# ===========================================
+
+# -------------------------------------------
+#  Node / NPM / Yarn
+# -------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+
+# Package lock files (keep by default – uncomment if you prefer to ignore)
+# package-lock.json
+# yarn.lock
+
+# -------------------------------------------
+#  Environment variables
+# -------------------------------------------
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# -------------------------------------------
+#  Build outputs (frontend & backend)
+# -------------------------------------------
+# React / Vite / Create React App
+build/
+dist/
+out/
+.next/
+.cache/
+
+# TypeScript (if used)
+lib/
+types/
+*.tsbuildinfo
+
+# Backend build (if using TypeScript for server)
+dist-server/
+server-build/
+
+# -------------------------------------------
+#  Logs & temporary files
+# -------------------------------------------
+logs/
+*.log
+*.tmp
+*.swp
+*.swo
+*.pid
+*.seed
+*.pid.lock
+
+# -------------------------------------------
+#  OS / Editor files
+# -------------------------------------------
+.DS_Store
+.DS_Store?
+Thumbs.db
+desktop.ini
+
+# Visual Studio Code
+.vscode/
+.history/
+*.code-workspace
+
+
+# -------------------------------------------
+#  Miscellaneous
+# -------------------------------------------
+# Optional: ignore specific output folders for documentation
+docs/_build/
+docs/.doctrees/
+
+# Dependabot / Renovate
+.github/dependabot.yml
